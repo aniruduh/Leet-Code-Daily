@@ -33,3 +33,14 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 
     0 <= start, goal <= 109
 
+### Solution (C++):
+
+    class Solution {
+    #include<bitset>
+    public:
+        int minBitFlips(int start, int goal) {
+        return __builtin_popcount(start ^ goal);
+        }
+    };
+
+

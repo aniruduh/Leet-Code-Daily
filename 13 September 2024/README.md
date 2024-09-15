@@ -28,7 +28,7 @@ The XOR values for queries are:\
 Input: arr = [4,8,2,10], queries = [[2,3],[1,3],[0,0],[0,3]]\
 Output: [8,0,4,4]
 
-Constraints:
+## Constraints:
 
     1 <= arr.length, queries.length <= 3 * 104
     1 <= arr[i] <= 109

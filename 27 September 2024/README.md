@@ -33,4 +33,3 @@ myCalendarTwo.book(25, 55); // return True, The event can be booked, as the time
 
     0 <= start < end <= 109
     At most 1000 calls will be made to book.
-
